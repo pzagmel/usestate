@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 export default function ContadorHooks({titulo}) {
-  const [contador, setContador] = useState(0);
+  const [contador, setContador] = useState(1);
   //puede recibir cualquier tipo de dato
   //console.log(useState())
   //es un arreglo que me devuelve 2 cosas, en posicion 0 un valor undefined,
