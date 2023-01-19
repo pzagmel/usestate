@@ -5,7 +5,7 @@ import ReactDOM from "react-dom";
 export default function Counter () {
   //initilize a count variable at 0, the setCount function
   // will be used to re-set the "count" value.
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(1);
   return (
     <div>
       <h2>{count} likes</h2>
